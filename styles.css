@@ -1,0 +1,51 @@
+/* estilos de presentacion - breakpoints en media query  */
+#fondoDePortada{
+    background: url(https://www.redclara.net/images/blockchain-lacnet-article.png);
+    background-repeat: no-repeat; /* que no se repita */
+    background-size: cover; /* que se adapte al contenedor */
+    height: auto;/* que se adpte a un alto automatico, se pued poner 100% */
+}
+
+.card{
+    display: flex;
+}
+#logoZ{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#jz h2{
+    color: #FFFAF4;
+}
+
+#jorgeFoto{
+    border-radius: 50px;
+    width: 30%;
+    height: 30%;
+
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    /* sans-serif -> al estilo de letra le quita los picos de las esquinas  */
+    /* Roboto seleccionada de google fonts debe ir entre comilas y con la R en mayuscula segun ;a regla de la web  */
+}
+/* Breakpoints Media Query : 338-mobile, 581-table, 1200-desktop */
+
+/* tenemos una medi query para fomrato mas chico de celular
+min -> desde
+max -> hasta */
+
+@media screen (min-width:338px) and (max-width:580px){
+
+}    
+
+@media screen (min-width:581px) and (max-width:1200px){
+
+}
+
+@media screen (min-width:1200px){
+
+    
+}

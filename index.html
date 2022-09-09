@@ -6,37 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>id-card-Jorge-zubieta</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS (hoja de estilos) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- /Bootstrap CSS -->
+    <!-- /Bootstrap CSS (hoja de estilos) -->
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- /Styles CSS -->
+
 
 </head>
 <body>
 
-    <!-- <header> -->
-    <header>
-        <h4>hader</h4>
-    </header>
-    <!-- </header> -->
+    <!-- header -->
+    <nav id="header" class="navbar navbar-expand-md navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">  
+            <a class="navbar-brand" href="#">
+                <img id="logoZ" src="https://cdn.worldvectorlogo.com/logos/z.svg" alt="zubieta-logo">
+            </a>
+            <a class="navbar-brand colorTituloLogo" href="#">Jorge Zubieta</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbar">
+                <!-- cambie el mr por ml para poner un margen automatico a la derecha -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact me</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>  
+    </nav>    
+
+    <!-- /header -->
+
+    <!-- main -->
+    <main>
+        <section id="fondoDePortada">
+
+            <!-- <div class="card" style="width: 18rem;" > -->
+                <div class="card align-content-center" style="width: 18rem;" >
+                    <img class="card-img-top" src="https://images.squarespace-cdn.com/content/v1/540b7b59e4b0d0f54986e678/1531372595360-TPCQECVW7CLME9WZE9BX/DSC_7830-2.jpg?" alt="jorgeZubietaPicture">
+                    <div id="jz" class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">Frontend Developer | Html | Css | Javascript | Bootstrap | React | Solidity</h6>
+                        <p class="card-text">I'm also venturing into the programming of Smart Contracts based on blockchain technology with Solidity.</p>
+                        <a href="#" class="btn btn-primary">Git</a>
+                    </div>
+                </div>
+        </section>    
+    </main>
+    <!-- /main -->
 
 
-<section>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://images.squarespace-cdn.com/content/v1/540b7b59e4b0d0f54986e678/1531372595360-TPCQECVW7CLME9WZE9BX/DSC_7830-2.jpg?format=1000w" alt="jorge zubieta picture">
-        <div class="card-body">
-            <h1 class="card-title">Jorge Zubieta</h1>
-            <h6 class="card-subtitle mb-2 text-muted">Frontend Developer | HTML | CSS | JavaScript | React</h6>
-            <p class="card-text">I'm also venturing into the programming of Smart Contracts based on blockchain technology with Solidity.</p>
-            <a href="#" class="btn btn-primary">Git</a>
+    <!-- footer -->
+    <!-- la clase "pb" paddign bootom, "pt" paddign tienen las opciones 1,2,3,4 en este caso "4" tamaño del padding -->
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+            <!-- text-center alinea el texto al centro de cada columna  -->
+            <div class="row text-center">
+                <!-- donde col-12 ocupa toda la fila en dispositivos chicos -->
+                <!-- y col-lg reparte el espacio de las columnas equitativamente para dispositivos grandes -->
+                <div class="col-12 col-lg">
+                    <a href="#">About me</a>
+                </div>
+            
+                <div class="col-12 col-lg">
+                    <a href="#">Proyects</a>
+                </div>
+            
+                <div class="col-12 col-lg">
+                    <a href="#">Contact me</a>
+                </div>
+                            
+            </div>
         </div>
-    </div>
-</section>
-
-    <!-- <footer> -->
-    <footer>
-        <h4>footer</h4>
     </footer>
-    <!-- </footer> -->
+    <!-- /footer -->
 
 
     <!-- Optional JavaScript -->
