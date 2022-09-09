@@ -8,6 +8,7 @@
 
 .card{
     display: flex;
+    text-align: right;
 }
 #logoZ{
     width: 50px;
@@ -23,7 +24,6 @@
     border-radius: 50px;
     width: 30%;
     height: 30%;
-
 }
 
 body{
