@@ -23,6 +23,10 @@
 
 #jz h2{
     color: #FFFAF4;
+    margin-top: 16px;
+}
+#jz p{
+    text-align: left;
 }
 
 #jorgeFoto{
