@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>id-card-Jorge-zubieta</title>
 
-    <!-- Bootstrap CSS (hoja de estilos) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- /Bootstrap CSS (hoja de estilos) -->
+    <!--Estilos de Bootstrap y propios-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--/Estilos de Bootstrap y propios-->
 
     <!-- Styles CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -19,41 +19,47 @@
 <body>
 
     <!-- header -->
-    <nav id="header" class="navbar navbar-expand-md navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">  
-            <a class="navbar-brand" href="#">
-                <img id="logoZ" src="https://cdn.worldvectorlogo.com/logos/z.svg" alt="zubieta-logo">
-            </a>
-            <a class="navbar-brand colorTituloLogo" href="#">Jorge Zubieta</a>
+    <header>
+        <!--Nav mobile-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand" href="#">
+                        <img id="logoZ" src="https://cdn.worldvectorlogo.com/logos/z.svg" alt="zubieta-logo" width="48" height="48" class="d-inline-block align-text-top">
+                    </a>
+                </div>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbar">
-                <!-- cambie el mr por ml para poner un margen automatico a la derecha -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-            
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About me</a>
-                    </li>
+                <a class="navbar-brand colorTituloLogo" href="#">JORGE ZUBIETA</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">        
+                        <li class="nav-item">
+                            <a class="nav-link" 
+                            aria-current="page" href="#">Home</a>
+                        </li>
+                
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About me</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact me</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" 
+                            aria-current="page" href="#">Projects</a>
+                        </li>
 
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Contact me</a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-        </div>  
-    </nav>    
+        </nav>
 
+    </header>
     <!-- /header -->
 
     <!-- main -->
@@ -102,10 +108,7 @@
     <!-- /footer -->
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!--Scripts de Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
